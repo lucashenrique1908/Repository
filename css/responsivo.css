@@ -1,0 +1,176 @@
+
+
+/* ===== MAX DESKTOP (1200px) ===== */
+@media (max-width: 1200px) {
+    .project-js, .project-html-css, .project-react {
+         flex: 100%; /* 1 coluna */
+        transition: 0.8s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .introduction {
+        text-align: center;
+    }
+    .project-js img,
+    .project-html-css img,
+    .project-react img {
+        width: 90%;
+    }
+    .project-js-item img {
+        height: 225px;
+    }
+    .introduction img {
+        width: 200px;
+    }
+
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.5rem; }
+    h4 { font-size: 1.3rem; }
+    h5 { font-size: 1.1rem; }
+    p { font-size: 1rem; }
+
+    .project-area {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project-area button {
+        width: 250px;
+        gap: 20px;
+        padding: 5px;
+    }
+    .project-area h1 {
+        font-size: .9rem;
+    }
+
+    .project-area button span {
+        font-size: 1.2rem;
+    }
+
+    .empty-page .card {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .empty-page .card p {
+        font-size: 1rem;
+    }
+
+    .empty-page button {
+        border: none;
+        color: white;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+/* ===== TABLET / MOBILE (600px) ===== */
+@media (max-width: 600px) {
+    .project-js, .project-html-css, .project-react {
+        flex: 100%; /* 1 coluna */
+        transition: 0.8s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .project-js img,
+    .project-html-css img,
+    .project-react img {
+        width: 90%;
+
+    }
+
+    .introduction {
+        margin: auto;
+        position: relative;
+        text-align: center;
+        padding: 8px;
+        height: 100%;
+        top: auto;
+    }
+
+    .introduction img {
+        width: 150px;        /* menor para mobile */
+        margin-bottom: 30px;
+        position: relative;  /* remove sticky */
+        top: auto;
+    }
+
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.6rem; }
+    h3 { font-size: .9rem; }
+    h4 { font-size: 1.2rem; }
+    h5 { font-size: 1rem; }
+    p { font-size: 0.9rem; }
+
+    .project-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .project-area h1 {
+        font-size: .6rem;
+    }
+
+    .project-area button {
+        width: 200px;
+        margin-bottom: 10px;
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .project-area button span {
+        font-size: 1rem;
+    }
+    .icons-project {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .empty-page .card {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .empty-page .card p {
+        font-size: 0.9rem;
+    }
+
+    .empty-page button {
+        border: none;
+        color: white;
+    }
+
+    .hide {
+        display: none;
+    }
+    .about-me {
+        width: 400px;
+        margin: auto;
+    }
+    .tecnologyes-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-footer h1 {
+        font-size: 1.2rem;
+    }
+    
+  
+}
